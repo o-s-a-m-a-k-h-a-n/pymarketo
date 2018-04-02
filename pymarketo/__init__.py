@@ -1,1 +1,2 @@
-print("hello, marketo")
+def hello():
+    print("hello, marketo")
