@@ -65,10 +65,8 @@ var/
 *.egg
 
 # Project ignores
-
 .vscode/**
 .idea/**
 .iml
 .env
-
 scratch.py
