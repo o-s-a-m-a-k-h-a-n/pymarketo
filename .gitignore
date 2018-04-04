@@ -63,6 +63,8 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+*.cache
+*.pyc
 
 # Project ignores
 .vscode/**
@@ -70,5 +72,3 @@ var/
 .iml
 .env
 scratch.py
-
-pymarketo/__pycache__/**
