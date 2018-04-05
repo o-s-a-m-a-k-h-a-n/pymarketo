@@ -2,7 +2,7 @@ PyMarketo
 ===================
 
 Python Client that covers the complete Marketo REST API. It handles authentication, error handling, rate limiting
-to the standard limit of 100 calls in 20 seconds (defined in http_lib module) and bulk exports while providing a simpler interface to its audience. This is a fork of the [marketo-rest-python](https://github.com/jepcastelein/marketo-rest-python) project.<br />
+to the standard limit of 100 calls in 20 seconds (defined in http_lib module) and bulk exports while providing a simpler interface to its audience. This is an _extension_ to the [marketo-rest-python](https://github.com/jepcastelein/marketo-rest-python) project.<br />
 
 
 Full Marketo REST API documentation can be referenced [here](http://developers.marketo.com/documentation/rest/).
@@ -23,3 +23,5 @@ client_id = "" # enter Client ID from Admin > LaunchPoint > View Details
 client_secret= "" # enter Client ID and Secret from Admin > LaunchPoint > View Details
 mkto = Marketo(client_server, client_id, client_secret)
 ```
+
+> More documentation about helper methods and access to `marketorestpython` methods to come here.
