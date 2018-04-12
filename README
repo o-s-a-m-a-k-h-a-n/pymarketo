@@ -1,1 +1,1 @@
-This package is a simpler wrapper to the Marketo REST API project and also adds bulk export job scheduling capability.
+This package is a simpler wrapper to the Marketo REST API project adding a few helpers functions around it.
