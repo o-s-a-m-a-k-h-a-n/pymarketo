@@ -16,7 +16,7 @@ PyMarketo is a Python3.x client that wraps the MarketoRestPython project to prov
 
 setup(
     name='pymarketo',
-    version='0.0.3dev',
+    version='0.1.0',
     description='Python Client for the Marketo REST API',
     url='https://github.com/osamakhn/pymarketo',
     author='Osama Khan',
@@ -29,8 +29,7 @@ setup(
     ],
     long_description=long_description,
     keywords='Marketo REST API Wrapper Client',
-    classifier=['Development Status :: 3 - Alpha',
-                'Intended Audience :: Developers',
+    classifier=['Intended Audience :: Developers',
                 'Programming Language :: Python :: 3'],
     project_urls={
         'Source': 'https://www.github.com/osamakhn/pymarketo'
